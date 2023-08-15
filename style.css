@@ -96,10 +96,24 @@ h3 {
     vertical-align: middle;
 }
 
+.single-result-box.first {
+    background-color: hsla(0, 100%, 67%, 8%);
+}
+
+.single-result-box.second {
+    background-color: hsl(39, 100%, 56%, 8%);
+}
+
+.single-result-box.third {
+    background-color: hsl(166, 100%, 37%, 8%);
+}
+
+.single-result-box.fourth {
+    background-color: hsl(234, 85%, 45%, 8%);
+}
+
 .material-symbols-outlined {
     position: relative;
     bottom: 2px;
     margin-right: .1em;
 }
-
-
