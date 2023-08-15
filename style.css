@@ -96,4 +96,10 @@ h3 {
     vertical-align: middle;
 }
 
+.material-symbols-outlined {
+    position: relative;
+    bottom: 2px;
+    margin-right: .1em;
+}
+
 
