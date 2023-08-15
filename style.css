@@ -192,7 +192,7 @@ h3 {
     .component-container {
         display: flex;
         justify-content: center;
-        height: 55%;
+        height: 450px;
         box-shadow: 10px 30px 50px ;
     }
 
