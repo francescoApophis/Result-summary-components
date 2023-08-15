@@ -42,8 +42,21 @@ h3 {
     color: hsl(224, 30%, 27%);
 }
 
+.single-result-box.first .result-field {
+    color: hsl(0, 100%, 67%);
+}
 
+.single-result-box.second .result-field {
+    color:hsl(39, 100%, 56%);
+}
 
+.single-result-box.third .result-field {
+    color: hsl(166, 100%, 37%);
+}
+
+.single-result-box.fourth .result-field {
+    color: hsl(234, 85%, 45%);
+}
 
 /* =================
         LAYOUT
