@@ -170,7 +170,7 @@ h3 {
     }
 
     .total-result-container {
-        justify-content: center;
+        justify-content: space-around;
     }
 
 
