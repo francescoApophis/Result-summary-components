@@ -4,3 +4,29 @@ body {
     font-family: 'Hanken Grotesk', sans-serif;
     font-size: 1.125rem ;
 }
+
+/* =================
+        TYPOGRAPHY
+   =================*/
+
+
+/* =================
+        LAYOUT
+   =================*/
+.container {
+    max-width: 100vw;
+    max-height: 100vh;
+}
+
+.component-container {
+    width: 100%;   
+}
+
+.total-result-container{ 
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: purple;
+    padding: 1em;
+    border-radius: 0 0 1.5em 1.5em;
+}
