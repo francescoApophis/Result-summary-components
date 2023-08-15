@@ -101,9 +101,12 @@ h3 {
 .single-result-box {
     display: flex;
     justify-content: space-between;
-    padding: 1em .8em;
-    margin: 0 0 .9em;
+    padding: 0 .8em ;
+    margin: 0 0 .9em; 
+
+    align-items: center;
     border-radius: .5em;
+    height: 3.2em;
 }
 
 .single-result-box * {
@@ -176,5 +179,9 @@ h3 {
 
     .total-result-container {
         border-radius: 1.5em ;
+    }
+
+    .single-result-box span {
+        vertical-align: middle;
     }
 }
