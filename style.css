@@ -37,6 +37,11 @@ h3 {
 }
 
 
+.result-summary-container h4 {
+    margin: 0 0 1em; 
+    color: hsl(224, 30%, 27%);
+}
+
 
 /* =================
         LAYOUT
@@ -50,6 +55,8 @@ h3 {
     width: 100%;   
 }
 
+
+/*      total result, purple section */
 .total-result-container{ 
     display: flex;
     flex-direction: column;
@@ -68,5 +75,21 @@ h3 {
     flex-direction: column;
     justify-content: center;
     background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+}
+
+
+/*         summary, white section */
+
+.result-summary-container {
+    margin-top: 1em;
+    padding: 0 1.5em;
+}
+
+
+.single-result-box {
+    background-color:hsl(221, 100%, 96%) ;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em .8em;
 }
 
