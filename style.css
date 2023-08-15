@@ -173,4 +173,8 @@ h3 {
         justify-content: center;
     }
 
+
+    .total-result-container {
+        border-radius: 1.5em ;
+    }
 }
