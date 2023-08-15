@@ -9,7 +9,6 @@ body {
         TYPOGRAPHY
    =================*/
 
-
 h1 {
     font-size: 2.5em;
     margin: 0;
@@ -162,7 +161,13 @@ h3 {
     background-color: hsl(224, 30%, 27%);
 }
 
+
+
 @media (min-width: 600px) {
+    /* =================
+        TYPOGRAPHY
+   =================*/
+
     h1 {
         font-size: 4em;
     }
@@ -174,13 +179,20 @@ h3 {
 
 
 @media (min-width: 600px) {
+    /* =================
+           LAYOUT
+    =================*/
+
     .container {
         display: flex;
         justify-content: center;
+        align-items: center;
+        height: 100vh;
     }
     .component-container {
         display: flex;
         justify-content: center;
+        height: 55%;
     }
 
     .total-result-container,
