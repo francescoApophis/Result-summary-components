@@ -92,7 +92,7 @@ h3 {
 /*         summary, white section */
 
 .result-summary-container {
-    margin-top: 1em;
+    margin: 1.5em 0;
     padding: 0 1.5em;
 }
 
@@ -136,4 +136,16 @@ h3 {
     position: relative;
     bottom: 2px;
     margin-left: .3em;
+}
+
+
+.continue-btn {
+    width: 100%;
+    border-radius: 3em;
+    border-style: none;
+    height: 3.5em;
+    background-color:  hsl(224, 30%, 27%);
+    color: white;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: bold;
 }
