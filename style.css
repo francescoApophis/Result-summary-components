@@ -130,3 +130,10 @@ h3 {
     bottom: 2px;
     margin-right: .1em;
 }
+
+.result-num span {
+    color: grey;
+    position: relative;
+    bottom: 2px;
+    margin-left: .3em;
+}
