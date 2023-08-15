@@ -43,6 +43,8 @@ h3 {
 }
 
 
+
+
 /* =================
         LAYOUT
    =================*/
@@ -83,12 +85,15 @@ h3 {
 
 
 .single-result-box {
-    background-color:hsl(221, 100%, 96%) ;
     display: flex;
     justify-content: space-between;
     padding: 1em .8em;
     margin: 0 0 .9em;
     border-radius: .5em;
+}
+
+.single-result-box * {
+    vertical-align: middle;
 }
 
 
