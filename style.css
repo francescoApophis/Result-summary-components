@@ -87,5 +87,8 @@ h3 {
     display: flex;
     justify-content: space-between;
     padding: 1em .8em;
+    margin: 0 0 .9em;
+    border-radius: .5em;
 }
+
 
