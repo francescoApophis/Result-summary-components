@@ -193,7 +193,8 @@ h3 {
         display: flex;
         justify-content: center;
         height: 450px;
-        box-shadow: 10px 30px 50px ;
+        border-radius: 1.5em;
+        box-shadow: 10px 30px 50px 10px hsl(221, 100%, 95%);
     }
 
     .total-result-container,
@@ -211,10 +212,7 @@ h3 {
         height: 10em;
     }
 
-    .total-result-container {
-        border-radius: 1.5em ;
-    }
-
+    
     .single-result-box span {
         vertical-align: middle;
     }
