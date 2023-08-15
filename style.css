@@ -79,6 +79,7 @@ h3 {
     background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
 }
 
+/*  result inside circle  */
 .total-result {
     width: 8rem;
     height: 8rem;
@@ -174,6 +175,11 @@ h3 {
 
     .total-result-container {
         justify-content: space-around;
+    }
+
+    .total-result {
+        width: 10em;
+        height: 10em;
     }
 
 
