@@ -162,6 +162,10 @@ h3 {
 }
 
 
+footer {
+    margin-top: 3em;
+}
+
 
 @media (min-width: 600px) {
     /* =================
